@@ -15,5 +15,6 @@
     "css": "/static/css/unc.css",
     "github": "https://github.com/Mark-Seaman/UNC-BACS-350",
     "week": 1,
-    "week_label": "Week "
+    "week_label": "Week ",
+    "num_weeks": 4
 }
