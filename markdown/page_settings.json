@@ -11,6 +11,7 @@
     "logo": "/static/images/course/bacs350/Bear.png",
     "cover": "/static/images/course/bacs350/treetops.800.jpg",
     "icon": "https://shrinking-world.com/static/favicon.ico",
+    "images": "/static/images/course/bacs350/lesson",
     "image_path": "/static/images/course/bacs350/treetops.800.jpg",
     "css": "/static/css/unc.css",
     "github": "https://github.com/Mark-Seaman/UNC-BACS-350",
