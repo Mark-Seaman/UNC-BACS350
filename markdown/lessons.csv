@@ -1,0 +1,42 @@
+bacs350,1,2021-08-23,1,Setup Django,None
+bacs350,2,2021-08-25,1,Django Projects,None
+bacs350,3,2021-08-27,1,Static Media,None
+bacs350,4,2021-08-30,2,App Structure,None
+bacs350,5,2021-09-01,2,Simple Template View,None
+bacs350,6,2021-09-03,2,Static Server,None
+bacs350,7,2021-09-08,3,Python Anywhere,None
+bacs350,8,2021-09-10,3,URLs with Parameters,None
+bacs350,9,2021-09-13,4,Template Pages,None
+bacs350,10,2021-09-15,4,View Inheritance,None
+bacs350,11,2021-09-17,4,Composite Views,None
+bacs350,12,2021-09-20,5,Data Models,None
+bacs350,13,2021-09-22,5,CRUD,None
+bacs350,14,2021-09-24,5,Django Test,None
+bacs350,15,2021-09-27,6,Data Views,None
+bacs350,16,2021-09-29,6,Data Views Test,None
+bacs350,17,2021-10-01,6,Custom Views,None
+bacs350,18,2021-10-04,7,Data Migration,None
+bacs350,19,2021-10-06,7,Django Model Views,None
+bacs350,20,2021-10-08,7,Inherited Style,None
+bacs350,21,2021-10-11,8,Forms Handling,None
+bacs350,22,2021-10-13,8,Forms Styling,None
+bacs350,23,2021-10-15,8,Forms Validation,None
+bacs350,24,2021-10-18,9,User Registration,None
+bacs350,25,2021-10-20,9,Login/Logout,None
+bacs350,26,2021-10-22,9,Authentication,None
+bacs350,27,2021-10-25,10,Base Template,None
+bacs350,28,2021-10-27,10,Template Includes,None
+bacs350,29,2021-10-29,10,Card Views,None
+bacs350,30,2021-11-01,11,Markdown View,None
+bacs350,31,2021-11-03,11,Table View,None
+bacs350,32,2021-11-05,11,Tabs & Accordion,None
+bacs350,33,2021-11-08,12,Carousel View,None
+bacs350,34,2021-11-10,12,Complex Views,None
+bacs350,35,2021-11-12,12,Menus,None
+bacs350,36,2021-11-15,13,Project Help,None
+bacs350,37,2021-11-17,13,Project Help,None
+bacs350,38,2021-11-19,13,Project Help,None
+bacs350,39,2021-11-29,14,Project Help,None
+bacs350,40,2021-12-01,14,Project Help,None
+bacs350,41,2021-12-03,14,Application Development,None
+bacs350,42,2021-12-03,14,Customer orders,None
