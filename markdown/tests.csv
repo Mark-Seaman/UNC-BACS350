@@ -1,4 +1,0 @@
-1,Check for Github Repo,github,x,Github,Expected to find a Github repository,Failed to reach the Github Repo.
-1,Check .gitignore file,github,blob/main/.gitignore,__pycache__,".gitignore file must contain info for ""*.pyc""","Failed to ignore the ""*.pyc"" files."
-2,Check for Python Anywhere Server,server,,Python Anywhere,Expected to go to Python Anywhere web server,Failed to get to web server at Python Anywhere.
-2,Check Superhero page on server,server,super/index.html,Superheroes News,Expected to go to a page at Python Anywhere web server by loading the URL (http://markseaman.pythonanywhere.com/),Failed to get to web server at Python Anywhere.
