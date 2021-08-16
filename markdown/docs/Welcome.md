@@ -3,8 +3,8 @@
 
 ## Maximum Flexibility
 
-I am excited to be teaching you in BACS 350 this year.  
-I hope that this course will be a bright spot in your training experience.
+I am excited to be teaching you in BACS 350 this year. I hope that this course will be a bright 
+spot in your training experience.
 
 This class has been upgraded significantly to accommodate the current realities of our world. 
 The biggest benefits you will see is a much greater flexibility in how and where you work.
@@ -47,7 +47,8 @@ projects will teach you all of the basic skills you need to build commercial app
 
 ## Grades
 
-The 14 projects will be due each Friday.
+The 14 projects will be due each Friday.  Late work will be marked down by 10%.  Do not
+fall behind since it is difficult to catch up.
 There will be no exams and no graded reading.
 
 ## Course Objective

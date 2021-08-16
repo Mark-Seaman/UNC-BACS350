@@ -13,6 +13,7 @@ Here are the skills that you need for success. -->
 ## BACS 350 Course
 
 * [Welcome to BACS350](Welcome.html)
+
 <!-- * [BACS350 Overview](Overview.html) -->
 <!-- * [Zoom Lectures](ZoomLectures.html) -->
 <!-- * [Course](Course.html) -->

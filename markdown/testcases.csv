@@ -1,4 +1,6 @@
 1,Check for Github Repo,github,.,Mark-Seaman/BACS350,Expected to find a Github repository,Failed to reach the Github Repo.
 1,Check .gitignore file,github,blob/main/.gitignore,__pycache__,".gitignore file must contain info for ""*.pyc""","Failed to ignore the ""*.pyc"" files."
+1,Check for Textbook,github,blob/main/week1/django_book.jpg,django_book.jpg,Github repo must have a screen shot of the book cover,Failed to find the Django for Beginners textbook.
+1,Check for Git repo screenshot,github,blob/main/week1/github_repo.png,github_repo.png,Github repo must have a screen shot of the book cover,Failed to find the Django for Beginners textbook.
 2,Check for Python Anywhere Server,server,.,Welcome to Book Builder,Expected to go to Python Anywhere web server,Failed to get to web server at Python Anywhere.
 2,Check list of books,server,book/,The Leverage Principle,Expected to go to a page at Python Anywhere web server by loading the URL (http://markseaman.pythonanywhere.com/),Failed to get to web server at Python Anywhere.
