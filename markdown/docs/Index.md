@@ -1,23 +1,24 @@
-# Tutorial Documents
+# BACS350 Documents
 
 
 ![](img/treetops.800.jpg)
 
-50 Skills for Web Page Development
+<!-- 50 Skills for Web Page Development
 
 It takes about 50 specific skills to develop web pages using HTML and CSS.
 
-Here are the skills that you need for success.
+Here are the skills that you need for success. -->
 
 
-## BACS 350
+## BACS 350 Course
 
-* [Welcome to BACS350](Overview.html)
-* [Zoom Lectures](ZoomLectures.html)
-* [Course](Course.html)
+* [Welcome to BACS350](Welcome.html)
+<!-- * [BACS350 Overview](Overview.html) -->
+<!-- * [Zoom Lectures](ZoomLectures.html) -->
+<!-- * [Course](Course.html) -->
 
 
-## Django
+<!-- ## Django
 
 * [What Is Django?](WhatIsDango.html)
 * [Setup Python](SetupPython.html)
@@ -47,4 +48,4 @@ Here are the skills that you need for success.
 * [Tips and Tricks](TipsTricks.html)
 * [Other Courses](https://shrinking-world.com)
 
-
+ -->
