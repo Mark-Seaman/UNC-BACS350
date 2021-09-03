@@ -1,7 +1,7 @@
 {
     "site_title": "UNC BACS 350",
     "site_subtitle": "Web Apps with Python/Django",
-    "site_url": "../index.html",
+    "site_url": "/course/bacs350",
     "course": "bacs350",
     "course_title": "BACS 350 - Fall 2021",
     "instructor": "Mark Seaman",
