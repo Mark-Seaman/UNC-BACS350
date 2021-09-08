@@ -3,11 +3,6 @@
     "label": "BACS 350 Course",
     "menu_items": [
         {
-            "url": "/student/bacs350/test",
-            "label": "Projects",
-            "page": "course/bacs350"
-        },
-        {
             "url": "/student/bacs350",
             "label": "Profile",
             "page": "course/bacs350"
