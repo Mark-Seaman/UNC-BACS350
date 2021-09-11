@@ -2,5 +2,5 @@
 1,Check for Textbook,github,blob/main/week1/django_book.jpg,django_book.jpg,Github repo must have a screen shot of the book cover,Failed to find the Django for Beginners textbook.
 1,Check for Git repo screenshot,github,blob/main/week1/github_repo.png,github_repo.png,Github repo must have a screen shot of the book cover,Failed to find the Django for Beginners textbook.
 1,Check for Hello app,github,blob/main/week1/Hello/config/settings.py,INSTALLED_APPS,There should be a settings.py file for the Hello app,Failed to find the settings.py file
-2,Check for Python Anywhere Server,server,.,Welcome to Book Builder,Expected to go to Python Anywhere web server,Failed to get to web server at Python Anywhere.
-2,Check list of books,server,book/,The Leverage Principle,Expected to go to a page at Python Anywhere web server by loading the URL (http://markseaman.pythonanywhere.com/),Failed to get to web server at Python Anywhere.
+2,Check for Python Anywhere Server,server,hulk,Hulk,Expected to find a page named "hulk" on web server,Failed to find page named "hulk" at Python Anywhere.
+2,Check for Github Repo,github,blob/main/week2/Superhero/config/settings.py,INSTALLED_APPS,Expected to find settings file in Github repo,Failed to find settings file in Github repo.
