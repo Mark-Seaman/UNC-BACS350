@@ -1,14 +1,14 @@
 bacs350,1,2021-08-23,1,Lesson 1 - Setup Django,None
 bacs350,2,2021-08-25,1,Lesson 2 - Django Projects & Apps,None
-bacs350,3,2021-08-27,1,Lesson 3 - Static Media,None
-bacs350,4,2021-08-30,2,"Lesson 4 - apps, urls, views, templates",None
+bacs350,3,2021-08-27,1,Lesson 3 - Create a Project,None
+bacs350,4,2021-08-30,2,Lesson 4 - App Structure,None
 bacs350,5,2021-09-01,2,Lesson 5 - Simple Template View,None
 bacs350,6,2021-09-03,2,Lesson 6 - Static Server,None
 bacs350,7,2021-09-08,3,Lesson 7 - Python Anywhere ,None
-bacs350,8,2021-09-10,3,Lesson 8 - URLs with Parameters,None
+bacs350,8,2021-09-10,3,Lesson 8 - Development Workflow,None
 bacs350,9,2021-09-13,4,Lesson 9 - Template Pages,None
-bacs350,10,2021-09-15,4,Lesson 10 - View Inheritance,None
-bacs350,11,2021-09-17,4,Lesson 11 - Composite Views,None
+bacs350,10,2021-09-15,4,Lesson 10 - URLs with Parameters,None
+bacs350,11,2021-09-17,4,Lesson 11 - View Inheritance,None
 bacs350,12,2021-09-20,5,Lesson 12 - Data Models,None
 bacs350,13,2021-09-22,5,Lesson 13 - CRUD,None
 bacs350,14,2021-09-24,5,Lesson 14 - Manipulating Data,None
