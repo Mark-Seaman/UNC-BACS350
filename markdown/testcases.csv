@@ -10,3 +10,4 @@
 5,Check for Github Repo,github,blob/main/week5/Superhero/config/settings.py,INSTALLED_APPS,Expected to find settings file in Github repo,Failed to find settings file in Github repo.
 5,Check for Hero list,server,hero/,</a>,Expected links to Hero pages,Failed to find hero page links
 5,Check for Hero details,server,hero/1,<html,Expected Hero details pages,Failed to find hero details page
+6,Check for Hero List,server,hero/,Superhero,Expected list of Superheroes,Failed to find word 'Superhero'
