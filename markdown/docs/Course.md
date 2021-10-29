@@ -2,143 +2,65 @@
 
 ## LESSON PLAN
 
-### 1 - Development Tools
-
-* Setup Django
-* Django Projects & Apps
-* Static Media
-* 
-### 2 - App Structure
-
-* Django App Structure
-* Simple Template View
-* Variables in Templates
-
-### 3 - App Hosting
-* Setup Python Anywhere
-* URLs with Parameters
-
-### 4 - Views
-* Template Pages
-* View Inheritance
-* Composite Views
-* Component Views
-* RedirectView
-
-### 5 - Data Model
-* ORM
-* CRUD
-* Admin Views
-
-### 6 - Data Views
-* Data Model Views
-* Test-Driven Development
-* Custom Views - get_context_data, migration### 
-
-
-### 7 - Django Generic Views
-* Data Migration
-* Django Model Views
-* Edit Views
-
-### 8 - Handling Forms
-### 
-* FormView - CSRF
-* Validation errors
-* Styling Forms
-
-### 9 - User Accounts
-
-* Register
-* Login/Logout
-* Encapsulation
-
-### 10 - Simple Views
-* Lesson 27 - Base Template Page
-    * Bootstrap (CSS, JavaScript)
-    * Page structure & blocks (visual inheritance)
-    * Content, Header, Main, Footer
-    * Navbar (main menu, user info)
-    * No document
-    * Card (title, body)
-
-* Lesson 28 - Templates Includes
-    * Partial templates
-    * Grid layout (container, row, col)
-    * Responsive design
-    * Custom width columns
-    * _header, _main, _footer
-
-* Lesson 29 - Card View
-
-
-* Project 9 - Superhero Styled
-    * Bootstrap
+- BACS 350 - Week 1 - Development Tools
+    * Setup Django
+    * Django Projects & Apps
+    * Static Media
+- BACS 350 - Week 2 - App Structure
+    * Django App Structure
+    * Simple Template View
+    * Variables in Templates
+- BACS 350 - Week 3 - App Hosting
+    * Setup Python Anywhere
+    * URLs with Parameters
+- BACS 350 - Week 4 - Views
+    * Template Pages
     * View Inheritance
-    * Header, Main, Footer
-    * List View
-        * Name of hero, secret ID, small photo
-            * Detail View
-        * Two columns (col 4, 8)
-            * Name, secret ID, description, strengths, weakness
-            * Medium photo with link
-            * Add, Edit, Delete View
-
-### 11 - Component Views
-
-* Lesson 30 - Document View
-    * Markdown formatting
-    * Document display
-    * autoescape
-    * Markdown document view
-    * Single card layout
-    * Multi card layout
-    * _document.html
-
-* Lesson 31 - Table View
-    * Table View (table.html, _table.html, TableView, url)
-
-* Lesson 32 - Tabs & Accordion
-    * Table View (tabs.html, _tabs.html, TabsView, url)
-    * Accordion View (accordion.html, _accordion.html, AccordionView, url)
-* 
-* Project 10 - Superhero News
-    * Report data model
-    * Views 
-* * Table (CSV Reader)
-* * Document View (Markdown data)
-* * Tabbed View
-* * Accordion View
-
-### 12 -  Complex Views
-
-* Lesson 33 - Carousel View
-
-* Lesson 34 - Menus
-    * JSON data
-    * Navbar (Dynamic Menu, User Info)
-
-* Lesson 32 - Superview
-    * Content or Main?
-    * "If then include" pattern
-    * doc, table, cards, tabs, accordion
-    * _super.html
-    * view_data()
-    * Dashboard 
-    * Complex data assembly - nested views
-    
-### 13 - Testing
-
-* Lesson 30 - SimpleTestCase
-
-* Lesson 31 - TestCase
-
-* Lesson 32 - pytest
-
-### 14 - Refactoring
-
-* Refactoring
-
-* Import/Export
-
-* Slide show
+    * Composite Views
+    * Component Views
+    * RedirectView
+- BACS 350 - Week 4 - Data Models
+    - Lesson 9 - Database
+    - Lesson 10 - Admin
+    - Lesson 11 - ListView
+- BACS 350 - Week 5 - Admin Views
+    - Lesson 12 -  Data CRUD Operations
+    - Lesson 13 - View Inheritance
+    - Lesson 14 - Testing
+- BACS 350 - Week 6 - Forms and Testing
+    - Lesson 15 - Forms for Data
+    - Lesson 16 -  Testing Data Views
+      Lesson 17 - System Tests
+- BACS 350 - Week 7 - User Accounts
+    - Lesson 18 - Registration
+    - Lesson 19 -  Login/Logout
+    - Lesson 20- User Management 
+- BACS 350 - Week 8 - Bootstrap
+    - Lesson 21 - Components
+    - Lesson 22 -  View Layout
+    - Lesson 23 - View Widgets
+- BACS 350 - Week 9 - Common Views
+    - Lesson 24 - Markdown
+    - Lesson 25 - Spreadsheet Data
+    - Lesson 26 - Tabs & Accordion
+- BACS 350 - Week 10 - Relational Data
+    - Lesson 27 - Foreign Key/Mentoring
+    - Lesson 28 - Linking Data types
+    - Lesson 29 - Refactoring
+- BACS 350 - Week 11 - Design
+    - Lesson 30 - Design Patterns
+    - Lesson 31 - Import/Export
+    - Lesson 32 -JSON Test Fixtures
+- BACS 350 -  Week 12 - Advanced Views
+    - Lesson 33 - Logic in Templates, URLs, Views, Data
+    - Lesson 34 - Reusable Views and Software Leverage
+    - Lesson 35 - Automation
+- Week 13 - Advanced Testing
+    - Lesson 36 - Hammer Testing (expected answer)
+    - Lesson 37 - Page Tests with Requests
+    - Lesson 38 - Testing with TestCase
+- Week 14 - Software Engineering (CS350)
+    - Lesson 39 - Software Lifecyle
+    - Lesson 40 - Scrum
+    - Lesson 41 - TDD
+    - Lesson 42 - Craftsmanship
