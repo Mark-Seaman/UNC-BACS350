@@ -13,6 +13,10 @@ Here are the skills that you need for success. -->
 ## BACS 350 Course
 
 * [Welcome to BACS350](Welcome.html)
+* [Projects](Projects)
+* [Course](Course)
+* [What's Django](WhatIsDjango)
+* [Command Line](CommandLine)
 
 <!-- * [BACS350 Overview](Overview.html) -->
 <!-- * [Zoom Lectures](ZoomLectures.html) -->
