@@ -106,12 +106,23 @@ BACS 350 - Web Apps with Python
             Views (urls, templates, views)
             Test (Data, Views)
     Week 12 - Advanced Views
-        Lesson 33 - Logic in Templates, URLs, Views, Data
+        Lesson 33 - Image Upload
+            Uploading Images
+            Create Image Objects
+            Using Images
+                Author profile photo
+                Book cover
+                Images in Chapters
+            Superhero images
+        Lesson 34 - Complex Views
+            Canonical Views
+            Reusable Views
+            Pass in data as dictionaries
+            Composite Views
             Building flexibility
             Keep code simple and clean
-        Lesson 34 - Reusable Views and Software Leverage
         Lesson 35 - View Design Patterns
-        Project - Superhero Social Networking
+        Project - Superhero Images
     Week 13 - Advanced Data
         Lesson 36 - Data versioning
         Lesson 37 - JSON & Test Fixtures

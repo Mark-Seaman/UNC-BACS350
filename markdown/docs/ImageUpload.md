@@ -1,23 +1,4 @@
-# Lesson 33 - Image Upload 
-
-## LEARN
-
-### Office Hours
-* If you need help please attend office hours
-* MWF  1:30-2:30 by Zoom
-* Zoom:  https://unco.zoom.us/j/99180652183
-* Email: mark.seaman@unco.edu      
-
-
-### Today
-* Uploading Images
-* Create Image Objects
-* Using Images
-    * Author profile photo
-    * Book cover
-    * Images in Chapters
-* Superhero images
-
+# Image Upload Design Pattern
 
 ## How To Video
 by John Elder
@@ -73,7 +54,7 @@ templates/image_add.html
 
 
 ## Views For Image Upload
-Add and list but no edit view
+Django model ImageField is used to upload images
 
 book/models.py
 
@@ -93,17 +74,6 @@ class ImageDeleteView(LoginRequiredMixin, DeleteView):
     success_url = reverse_lazy('image_list')
 ```
 
-## URLs For Image Upload
-Django model ImageField is used to upload images
-
-book/models.py
-
-```python
-    path('image/',                ImageListView.as_view(),    name='image_list'),
-    path('image/add',             ImageCreateView.as_view(),  name='image_add'),
-    path('image/<int:pk>/delete', ImageDeleteView.as_view(),  name='image_delete'),
-```
-
 
 ## Views For Image Display
 Django model ImageField is used to upload images
@@ -111,7 +81,6 @@ Django model ImageField is used to upload images
 templates/image_list.html
 
 ```html
-<table>
 {% for image in object_list %}
     <tr>
         <td><img src="{{ image.image.url }}" alt="{{ image.title }}" width='200'></td>
@@ -119,29 +88,4 @@ templates/image_list.html
         <td><a href="/image/{{ image.pk }}/delete">Delete</a></td>
     </tr>
 {% endfor %}
-</table>
 ```
-
-
-
-## BUILD
-
-### Demo Code
-* [Demo Code](https://github.com/Mark-Seaman/BACS350/tree/main/week12/BookBuilder/book)
-* Follow along with my source code
-* Clone my repo and edit the code
-
-
-### Final Project
-* Due on December 3
-* Requirements for Projects 10, 11, 12, 13, 14
-* Partial Credit will be given
-
-
-### New Features
-* Upload images to use for Superhero profile photos
-* Display the photos
-* Add images to Investigator profile
-
-
-
