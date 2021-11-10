@@ -17,27 +17,13 @@ Use view inheritance in templates.
 Pass the template selector on the URL and load the correct template.
 
 
-
 ### Steps
 * Pass the template selector the URL
 * Select the template for the page
 * Add extra context when needed
 * Allow for view inheritance
-    
-
-### Template Selector View
-
-A single view function can be used to serve many different page templates.  An argument 
-supplied with the URL route can be used to select from a number of possible templates.
-
-Example:
-
-    URL:    
-    
-    View:  
+     
             
-                    
-
 
 ## Data
 
@@ -138,12 +124,12 @@ class ViewTest(TestCase):
         self.assertContains(response, 'home')
 
         response = self.client.get('/home.html')
-        self.assertContains(response, 'home')
+        self.assertContains(response, 'Home Page')
 
         response = self.client.get('/theme.html')
-        self.assertContains(response, 'theme.html')
-        
-        response = self.client.get('/page')
-        self.assertContains(response, 'Generic Page')
+        self.assertContains(response, 'Workshop Theme Page')
+
+        response = self.client.get('/page.html')
+        self.assertContains(response, 'Generic HTML Page')
 ```
 
