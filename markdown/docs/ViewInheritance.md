@@ -1,94 +1,115 @@
-# Use View Inheritance
+# View Inheritance Design Pattern
+
+## Overview
+
+### Goals
+
+Build a common theme that is used on all pages on a website.
+
+Provide one place for each feature.
+
+Encapsulate all common logic for reuse.
+
+Build views without thinking.
+
+Use Bootstrap to create high visual impact.
+
+Use Partial Templates to organize your code logic.
+
+Use Template Blocks to override default behavior.
+
+Provide useful default behavior.
+
+
+### Steps
 
 Create a series of templates
     
-    book_theme.html
+    theme.html
     _header.html
     _footer.html
     _navbar.html
     _user.html
+
+Define blocks for page composition
+
+    title
+    navbar
+    user
+    header
+    content
+    footer
     
-## book_theme.html
+
+## Template
+
+
+### Theme
+
+theme.html
 
 ```html
-    <!doctype html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport"
-                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>{{ page_title }}</title>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-                  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-                  crossorigin="anonymous">
-            <link rel="stylesheet" href="/static/shrinking-world.css">
-        </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <body class="bg-dark text-light">
+    <title>{% block title %}NO TITLE{% endblock title %}</title>
 
-            {% block content %}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="/static/style.css" rel="stylesheet">
+</head>
 
-                {% block header %}
-                    {% include '_header.html' %}
-                {% endblock header %}
+<body>
+
+    {% block navbar %}
+    {% include '_navbar.html' %}
+    {% endblock navbar %}
 
 
-                {% block navbar %}
-                    {% include '_navbar.html' %}
-                {% endblock navbar %}
+    {% block header %}
+    {% include '_header.html' %}
+    {% endblock header %}
 
 
-                <main class="text-dark">
-                    <div class="container py-5">
-
-                        {% block main %}
-                            <h2>NO MAIN DEFINED</h2>
-                        {% endblock main %}
-
-                    </div>
-                </main>
+    {% block content %}
+    <div class="bg-danger text-light text-center">
+        <h1>Workshop Theme Page</h1>
+        <p>This is a demo of a base theme page with no content or inheritance.</p>
+    </div>
+    {% endblock content %}
 
 
-                {% block footer %}
-                    {% include '_footer.html' %}
-                {% endblock footer %}
+    {% block footer %}
+    {% include '_footer.html' %}
+    {% endblock footer %}
 
-            {% endblock content %}
+</body>
 
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                    crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-                    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-                    crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-                    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-                    crossorigin="anonymous"></script>
-
-        </body>
-
-    </html>
+</html>
 ```
     
 
-## _header.html
+### Header
+
+header.html
 
 ```html
-<header class="p-lg-5">
-
-    <h1 class="display-4 ml-5">
-        <a href="/">Book Builder</a>
-    </h1>
-
-    <h2 class="ml-5">An Author's Best Friend</h2>
-
+<header class="container-fluid p-5 bg-primary text-white text-center">
+    <a href="/" class="text-white">
+        <h1>View Workshop</h1>
+    </a>
 </header>
 ```
     
 
-## _footer.html
+### Footer
+
+footer.html
 
 ```html
 <footer class="bg-primary p-3 text-center text-light">
@@ -99,41 +120,32 @@ Create a series of templates
 ```
     
 
-## _navbar.html
+### Navbar
+
+navbar.html
 
 ```html
-<nav class="navbar navbar-expand-sm navbar-light bg-light mb-2">
-
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark text-light">
     <div class="container">
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <a class="navbar-brand text-light" href="/">View Workshop</a>
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+            {% for i in menu.menu_items %}
+                <li class="nav-item {{ i.active }}">
+                    <a href="{{ i.url }}" class="nav-link">{{ i.label }}</a>
+                </li>
+            {% endfor %}
+        </ul>
 
-            <a href="{% url 'home' %}" class="navbar-brand">Book Builder App</a>
-
-            <ul class="navbar-nav ml-auto">
-
-                {% for i in menu.menu_items %}
-                    <li class="nav-item {{ i.active }}">
-                        <a href="{{ i.url }}" class="nav-link">{{ i.label }}</a>
-                    </li>
-                {% endfor %}
-
-                {% include '_user.html' %}
-
-            </ul>
-
-        </div>
     </div>
-
 </nav>
 ```
 
 
-## _user.html
+### User Info
+
+user.html
 
 ```html
 {% if user.is_authenticated %}
@@ -156,6 +168,29 @@ Create a series of templates
         </a>
     </li>
 {% endif %}
+```
+
+
+
+## Views
+
+views.py
+
+```python
+class HtmlView(TemplateView):
+    template_name = 'home.html'
+```
+
+## URL Routes
+
+urls.py
+
+```python
+urlpatterns = [
+    path('', HtmlView.as_view(), name='home'),
+    path('theme.html', HtmlView.as_view(template_name='theme.html'), name='theme'),
+]
+
 ```
 
     
