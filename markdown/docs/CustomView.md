@@ -66,9 +66,9 @@ views.py
 One template can be included within another template file.  This lets you reuse pieces of
 code without redefining the logic.  For example, there may be a complex header at the top
 of every page.  Define the header content once and include the file in every page.  Designate
-files that do not define complete HTML with names that start with "_".
+files that do not define complete HTML with names that start with " _ ".
 
-templates/_header.html
+templates/header.html
 
     <div>
         <h1>{{ title }}</h1>
@@ -145,16 +145,3 @@ templates/page.html
         <p>This is a paragraph</p>
     {% endblock content %}
             
-    
-### if & for
-
-### Build custom dictionary in view
-
-### Data Lookup from Files
-
-### Render Markdown Content as HTML
-
-### Load Variables from JSON
-
-### Load CSV files
-
