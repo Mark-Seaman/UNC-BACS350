@@ -114,25 +114,48 @@ BACS 350 - Web Apps with Python
                 Book cover
                 Images in Chapters
             Superhero images
-        Lesson 34 - Complex Views
-            Canonical Views
-            Reusable Views
-            Pass in data as dictionaries
-            Composite Views
-            Building flexibility
-            Keep code simple and clean
-        Lesson 35 - View Design Patterns
+        Lesson 34 - Simple Views
+            View Workshop App
+            Theme View - View Inheritance
+            Custom View
+            HTML Page View
+            Card View
+            Document View
+        Lesson 35 - Complex Views
+            View Workshop App
+            Tabs View
+            Accordion View
+            Carousel View
+            Super View
         Project - Superhero Images
     Week 13 - Advanced Data
         Lesson 36 - Data versioning
+            Export Design Pattern
+            Commit data changes
+            Object Record Creation
+            Import Design Pattern
+            Testability
         Lesson 37 - JSON & Test Fixtures
             dumpdata
             loaddata
             tests with data
         Lesson 38 - Data Design Patterns
+            App Structure
+            CRUD Operations
+            Data Models
+            Code Cloner
+            Import/Export
+            Custom Data Helpers
+            Data Inheritance
+            Data Reference Graph
         Project - Superhero Social Network
     Week 14 - Advanced Test
         Lesson 39 - Page Tests with Requests
+            live data tests
+            requests.get
+            status code
+            templates
+            simple testing
         Lesson 40 - Hammer Testing (expected answer)
         Lesson 41 - Testing Design and Coverage
         Lesson 42 - Career & Craftsmanship
