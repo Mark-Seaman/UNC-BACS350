@@ -5,16 +5,17 @@ Reusable Design Patterns
 
 ## Data Design Patterns
 
-* CRUD operations
+* [CRUD operations](CRUD)
 * [Import/Export](ImportExport) 
+* [Image Upload](ImageUpload)
+* [Data Manipulation](DataManipulation)
 
 
 ## Views Design Patterns
 
 * [Data Views](DataViews)
-* [Image Upload](ImageUpload)
 * Simple Views
-    * [Theme View](VisualInheritance)
+    * [Theme View](ViewInheritance)
     * [Home View](CustomView)
     * [HTML Page View](HtmlView)
     * [Card View](CardView)
