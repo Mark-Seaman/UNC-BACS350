@@ -150,14 +150,25 @@ BACS 350 - Web Apps with Python
             Data Reference Graph
         Project - Superhero Social Network
     Week 14 - Advanced Test
-        Lesson 39 - Page Tests with Requests
+        Lesson 39 - Django Tests
+            Blank database
+            Setup
+            Fixtures
+            Data (CRUD)
+            Views (list, detail, add, edit, delete)
+            Standard test design
+        Lesson 40 - Page Probe
+            Tests with "requests"
             live data tests
             requests.get
             status code
             templates
             simple testing
-        Lesson 40 - Hammer Testing (expected answer)
-        Lesson 41 - Testing Design and Coverage
+        Lesson 41 - Hammer Testing 
+            all tests produce text output
+            expected answer
+            show differences
+            approve current answer
         Lesson 42 - Career & Craftsmanship
-        Project - Superhero Social Network
+        Project - Test Apps
 
