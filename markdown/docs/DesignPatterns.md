@@ -29,5 +29,4 @@ Reusable Design Patterns
 
 ## Test Design Patterns
 
-* CRUD Test
-* Data Views Test
+* [Django Tests](DjangoTests)
