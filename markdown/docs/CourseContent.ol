@@ -162,13 +162,39 @@ BACS 350 - Web Apps with Python
             live data tests
             requests.get
             status code
-            templates
+            text match
             simple testing
         Lesson 41 - Hammer Testing 
             all tests produce text output
             expected answer
             show differences
             approve current answer
-        Lesson 42 - Career & Craftsmanship
+        Lesson 42 - Testing Design Patterns
+            move toward an integrated strategy
+            multi-dimensional test
+                unit testing
+                page testing
+                complete system testing
+            create test tools
+            script repeat solutions
         Project - Test Apps
+    Week 15 - Professional Career
+        Lesson 43 - Open Source Projects
+            App Workshop & Catalog
+            General Prototype App
+            App Builder
+            Book Builder
+            Course Builder
+            Hammer Tester
+            Notes App
+            Static Website
+        Lesson 44 - Career Opportunity
+            [Stack Overflow Developer Survey](https://insights.stackoverflow.com/survey/2021)
+        Lesson 45 - Craftsmanship
+            Do no harm - You touch it you own it
+            Professional commitments
+                Learn
+                Produce high quality
+                Be productive
+                Teamwork
 
