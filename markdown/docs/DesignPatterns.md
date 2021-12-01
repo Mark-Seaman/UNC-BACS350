@@ -30,3 +30,6 @@ Reusable Design Patterns
 ## Test Design Patterns
 
 * [Django Tests](DjangoTests)
+* [Hammer Script Tests](HammerScriptTest)
+* [Page Probe Tests](PageProbe)
+
