@@ -1,56 +1,46 @@
-# BACS350 Documents
+# BACS350 Document Index
 
-
-![](img/treetops.800.jpg)
-
-<!-- 50 Skills for Web Page Development
-
-It takes about 50 specific skills to develop web pages using HTML and CSS.
-
-Here are the skills that you need for success. -->
-
-
-## BACS 350 Course
-
-* [Welcome to BACS350](Welcome.html)
-* [Projects](Projects)
-* [Course](Course)
-* [What's Django](WhatIsDjango)
-* [Command Line](CommandLine)
-
-<!-- * [BACS350 Overview](Overview.html) -->
-<!-- * [Zoom Lectures](ZoomLectures.html) -->
-<!-- * [Course](Course.html) -->
-
-
-<!-- ## Django
-
-* [What Is Django?](WhatIsDango.html)
-* [Setup Python](SetupPython.html)
-* [New Project](NewProject.html)
-* [Fix Git Repo](FixGitRepo.html)
-
-
-## Github
-
-* [Register a Github account](GithubAccount.html)
-* [Create a Github repository](GithubRepo.html)
-* [Publish Github Pages](GithubPages.html)
-* [Home Page](HomePage.html)
-
-
-## Web App Hosting
-* [Python Anywhere](PythonAnywhere.html)
-* [Python Anywhere Demo Video](PythonAnywhereDemo.html)
-* [App Deployment](AppDeployment.html)
+* [50 Skills for Web App Development](50-Skills.html)
+* [Accordion View Design Pattern](Accordion.html)
+* [Deploy App on Python Anywhere](AppDeployment.html)
+* [CRUD Design Pattern](CRUD.html)
+* [Card View Design Pattern](CardView.html)
+* [Carousel View Design Pattern](Carousel.html)
 * [Command Line](CommandLine.html)
-
-
-## Resources
-
-* [Course Website](CourseWebsite.html)
+* [BACS 350 - Web Apps with Python](Course.html)
+* [BACS 350 Course Website](CourseWebsite.html)
+* [Add Data to Django Views](CreateNewView.html)
+* [Custom Django Views](CustomView.html)
+* [Data Manipulation Design Pattern](DataManipulation.html)
+* [Data Views Design Pattern](DataViews.html)
+* [Document View Design Pattern](DesignPatternTemplate.html)
+* [ Design Patterns](DesignPatterns.html)
+* [Django Tests Design Pattern](DjangoTests.html)
+* [Document View Design Pattern](DocumentView.html)
+* [Fix Your Git Repo](FixGitRepo.html)
+* [Register Github Account](GithubAccount.html)
+* [Github Pages](GithubPages.html)
+* [Create a Github Repo](GithubRepo.html)
+* [Test Github Pages](GithubTest.html)
+* [BACS 350 Project Grading](GradingProjects.html)
+* [Welcome Guest - BACS 350](Guest.html)
+* [Hammer Script Test Design Pattern](HammerScriptTest.html)
+* [HTML Page View Design Pattern](HtmlView.html)
+* [Image Upload Design Pattern](ImageUpload.html)
+* [Import/Export Design Pattern](ImportExport.html)
+* [BACS350 Document Index](Index.html)
 * [Learning Resources](LearningResources.html)
+* [BACS 350 Course Overview](Overview.html)
+* [Page Probe Test Design Pattern](PageProbe.html)
+* [Python Anywhere ](PythonAnywhere.html)
+* [Python Anywhere Demo](PythonAnywhereDemo.html)
+* [Reusable Views](ReusableViews.html)
+* [Install Python 3 & Django](SetupPython.html)
+* [Super View Design Pattern](SuperView.html)
+* [Superhero News Requirements](Superhero.html)
+* [Tabs View Design Pattern](TabsView.html)
+* [Skill #2 - Create Pages from Templates](TemplateView.html)
 * [Tips and Tricks](TipsTricks.html)
-* [Other Courses](https://shrinking-world.com)
-
- -->
+* [View Inheritance Design Pattern](ViewInheritance.html)
+* [Welcome to BACS 350](Welcome.html)
+* [What is Django?](WhatIsDjango.html)
