@@ -42,7 +42,7 @@ which is run before every test case.
 ```python
 def setUp(self):
     self.user, self.user_args = create_test_user()
-    self.author = Author.objects.create(user=self.user, name='Mark')
+    self.author = Teacher.objects.create(user=self.user, name='Mark')
     self.course = Course.objects.create(title='BACS 350', author=self.author)
 ```
 
@@ -61,7 +61,7 @@ class LessonDataTest(TestCase):
 
     def setUp(self):
         self.user, self.user_args = create_test_user()
-        self.author = Author.objects.create(user=self.user, 
+        self.author = Teacher.objects.create(user=self.user, 
                                             name='Mark Seaman')
         self.course = Course.objects.create(name='bacs200', title='BACS 200', 
                                             author=self.author, 
@@ -113,7 +113,7 @@ class LessonViewsTest(TestCase):
 
     def setUp(self):
         self.user, self.user_args = create_test_user()
-        self.author = Author.objects.create(user=self.user, name='Charles Dickens')
+        self.author = Teacher.objects.create(user=self.user, name='Charles Dickens')
         self.course = Course.objects.create(title='Tale of Two Cities', author=self.author,
                                             description='description', doc_path='Documents')
         self.lesson1 = dict(course=self.course, title='Best of Times', order='1', date='2001-09-11', week='1')

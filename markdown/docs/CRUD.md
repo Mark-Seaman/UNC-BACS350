@@ -30,7 +30,7 @@ from django.db import models
 class Book(models.Model):
     title = models.CharField(max_length=200)
     subtitle = models.CharField(max_length=200, null=True, blank=True)
-    author = models.ForeignKey(Author, on_delete=models.CASCADE, editable=False)
+    author = models.ForeignKey(Teacher, on_delete=models.CASCADE, editable=False)
 ```
 
 
