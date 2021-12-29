@@ -284,7 +284,7 @@ templates/probe_detail.html
 config/urls.py
 
 ```python
-from hammer.views_probe import TestView
+from probe.views_probe import TestView
 
 urlpatterns = [
     path('', TestView.as_view()),
