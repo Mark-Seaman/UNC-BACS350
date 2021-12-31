@@ -7,7 +7,7 @@
   "cover": "/static/images/course/bacs350/autumn-leaves.jpg",
   "logo": "/static/images/course/bacs350/Bear.png",
   "theme": "beige.css",
-  "stylesheet": "/static/css/slides.css",
+  "stylesheet": "/static/slides.css",
   "images": "/static/images/course/bacs350/lesson",
   "divider": "/static/images/course/bacs350/treetops.800.jpg",
   "background": "/static/images/course/bacs350/paper.jpg",
